@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.app-header p {
+  color: #555;
+}
+
+.sets-section {
+  margin-bottom: 30px;
+}
+
+.sets-list {
+  list-style: none;
+  padding: 0;
+}
+
+.set-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.set-item strong {
+  font-size: 1.1rem;
+}
+
+.rate-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rate-button:hover {
+  background-color: #45a049;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-item {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-item p {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.hide-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hide-button:hover {
+  background-color: #d32f2f;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.show-answer-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.show-answer-button:hover {
+  background-color: #0056b3;
+}
+
+.hide-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hide-button:hover {
+  background-color: #d32f2f;
+}
